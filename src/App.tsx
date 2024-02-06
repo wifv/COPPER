@@ -8,6 +8,7 @@ function App() {
     <>
       {count}
       <div onClick={() => setCount(count + 1)}>aaaaaaaa</div>
+      <a href="/lox">nigga</a>
     </>
   )
 }
