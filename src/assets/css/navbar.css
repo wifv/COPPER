@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.left-nav,
+.right-nav {
+    display: flex;
+    gap: 10px;
+}

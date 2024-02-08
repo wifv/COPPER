@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ///////////////////// */
+
+.landing-wrapper {
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+}
+
+.landing-wrapper .landing-wrapper-img {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(140deg, rgba(92,69,8,0.5074404761904762) 0%, rgba(3,31,16,0.7371323529411764) 35%);
+
+}
+
+.landing {
+    max-width: 1300px;
+    width: 100%;
+}
